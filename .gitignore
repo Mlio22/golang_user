@@ -1,0 +1,32 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Build output
+bin/
+dist/
+build/
+
+# Coverage
+coverage.out
+coverage.html
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Environment files
+.env
+.env.*
+
+# IDE and OS files
+.DS_Store
+.idea/
+
+# Temporary debug binaries produced by some tools
+__debug_bin*
